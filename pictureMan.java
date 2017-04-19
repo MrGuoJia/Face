@@ -105,11 +105,9 @@ public class pictureMan {
         public void setFace_probability(double face_probability) {
             this.face_probability = face_probability;
         }
-
         public int getGlasses() {
             return glasses;
         }
-
         public void setGlasses(int glasses) {
             this.glasses = glasses;
         }

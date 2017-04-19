@@ -9,7 +9,6 @@ import android.util.AttributeSet;
 /**
  * Created by yls on 2017/4/18.
  */
-
 public class FaceView extends android.support.v7.widget.AppCompatImageView {
     private Paint p;
     private Rect rect;
@@ -42,6 +41,7 @@ public class FaceView extends android.support.v7.widget.AppCompatImageView {
         this.rects=rects;
         invalidate();
     }
+
     public void setAmount(int amount){
         this.amount=amount;
     }

@@ -127,7 +127,6 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
                 allRect = new Rect[amount];//确认总共有多少个人脸
-
                 for (int i = 0; i < pictureMan.getResult_num(); i++) {
                     Log.e("result----------", "pictureMan.getResult_num()=" + pictureMan.getResult_num());
                     int left = pictureMan.getResult().get(i).getLocation().getLeft();

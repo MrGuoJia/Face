@@ -136,7 +136,6 @@ public class MainActivity extends AppCompatActivity {
                     Log.e("result----------", " left=" + left + "   width=" + width + "    top=" + top + "    height=" + height);
                     Rect r = new Rect((int) (left / 1.5f), (int) (top / 1.5f), (int) ((left + width) / 1.5f), (int) ((top + height) / 1.5f));
                     allRect[i] = r;
-
                 }
                 Message msg = Message.obtain();
                 msg.obj = allRect;

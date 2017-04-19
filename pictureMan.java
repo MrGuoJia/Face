@@ -143,7 +143,6 @@ public class pictureMan {
         public void setExpression_probablity(double expression_probablity) {
             this.expression_probablity = expression_probablity;
         }
-
         public int getRotation_angle() {
             return rotation_angle;
         }

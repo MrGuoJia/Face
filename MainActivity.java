@@ -140,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 Message msg = Message.obtain();
                 msg.obj = allRect;
                 myHandler.sendMessage(msg);
+
             }
 
         }).start();

@@ -146,7 +146,6 @@ public class pictureMan {
         public int getRotation_angle() {
             return rotation_angle;
         }
-
         public void setRotation_angle(int rotation_angle) {
             this.rotation_angle = rotation_angle;
         }

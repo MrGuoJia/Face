@@ -27,7 +27,6 @@ public class FaceView extends android.support.v7.widget.AppCompatImageView {
             paints[i] = p;
         }
     }
-
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);

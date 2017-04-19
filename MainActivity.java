@@ -150,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         bm.compress(Bitmap.CompressFormat.PNG, 100, baos);
         return baos.toByteArray();
+
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

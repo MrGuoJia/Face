@@ -152,7 +152,6 @@ public class pictureMan {
         public double getYaw() {
             return yaw;
         }
-
         public void setYaw(double yaw) {
             this.yaw = yaw;
         }

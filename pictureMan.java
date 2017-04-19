@@ -69,7 +69,6 @@ public class pictureMan {
          * race_probability : 0.99999928474426
          * pitch : 8.4034767150879
          */
-
         private int expression;
         private double face_probability;
         private int glasses;

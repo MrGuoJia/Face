@@ -16,7 +16,6 @@ public class FaceView extends android.support.v7.widget.AppCompatImageView {
     private Paint[]paints;
     private Rect[] rects;
     private int amount;
-
     public FaceView(Context context, AttributeSet attrs) {
         super(context, attrs);
         paints=new Paint[10];

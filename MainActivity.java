@@ -99,7 +99,6 @@ public class MainActivity extends AppCompatActivity {
         }else {
             bmp=photoBitmap;
         }
-
         final byte[] imgByte = Bitmap2Bytes(bmp);
         final HashMap<String, String> paraMap = new HashMap<String, String>();
         paraMap.put("max_face_num", "10");//最大是别人数10，不写默认为一

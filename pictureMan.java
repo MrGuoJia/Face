@@ -149,7 +149,6 @@ public class pictureMan {
         public void setRotation_angle(int rotation_angle) {
             this.rotation_angle = rotation_angle;
         }
-
         public double getYaw() {
             return yaw;
         }

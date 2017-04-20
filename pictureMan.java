@@ -203,7 +203,6 @@ public class pictureMan {
         public void setGlasses_probability(double glasses_probability) {
             this.glasses_probability = glasses_probability;
         }
-
         public double getRace_probability() {
             return race_probability;
         }

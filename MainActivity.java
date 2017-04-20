@@ -166,7 +166,6 @@ public class MainActivity extends AppCompatActivity {
                 photoBitmap = ImgUtil.handleImageBeforeKitKat(this, data);
             }
             img.setImageBitmap(photoBitmap);
-
         }
     }
 }

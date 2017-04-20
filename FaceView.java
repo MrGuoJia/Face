@@ -33,6 +33,7 @@ public class FaceView extends android.support.v7.widget.AppCompatImageView {
         if(this.rects != null) {
             for (int i=0;i<getAmount();i++){
                 canvas.drawRect(rects[i], paints[i]);
+
             }
         }
     }
